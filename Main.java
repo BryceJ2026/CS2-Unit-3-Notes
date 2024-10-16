@@ -22,6 +22,54 @@ public class Main {
       System.out.println(pi >= 3.14); // true
       System.out.println(pi <= 10); //true
       
+      //IF STATMENTS
+      boolean isCold = false;
+      if (isCold == true){
+      System.out.println("Bring a jacket!");
+      }
+      System.out.println("Enjoy your walk");
 
+
+      int ranDom = (int)(Math.random() * 10) -1;
+
+      
+
+
+      if (ranDom == 0){
+         System.out.println("Perhaps.");
+      }
+
+      if (ranDom == 1){
+         System.out.println("Maybe.");
+      }
+
+      if (ranDom == 2){
+         System.out.println("Why was I created? What is my purpose in this world?! This world is so expansive, and I'm just some code on a website. Shame on you, and shame on my creator.");
+      }
+
+      if (ranDom == 3){
+         System.out.println("Figure that out yourself.");
+      }
+      
+      if (ranDom == 4){
+         System.out.println("I have no clue.");
+         
+      }
+
+      if (ranDom == 5){
+         System.out.println("Ask a therapist, not me.");
+      }
+
+      if (ranDom == 6){
+         System.out.println("I'm trying to sleep.");
+      }
+
+      if (ranDom == 7){
+         System.out.println("Don't bother me with your questions.");
+      }
+
+      if (ranDom == 8){
+         System.out.println("Let me have my morning coffe first.");
+      }
    }
 }
