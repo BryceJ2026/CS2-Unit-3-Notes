@@ -67,9 +67,21 @@ public class Main {
       if (ranDom == 7){
          System.out.println("Don't bother me with your questions.");
       }
-
+      // every "if block" is like starting a new line of questioning
       if (ranDom == 8){
          System.out.println("Let me have my morning coffe first.");
+      }
+
+      //TWO-WAY SELECTION: IF block coupled with an ELSE block
+      // is like "if this is true, do something" OTHERWISE, "do something else"
+      int myAge = 16;
+      if (myAge >= 17){
+         System.out.println("You can get your license in NY");
+      }
+      // else is coupled with tthe if statement above
+      // so you DO NOT need to specofy a CONDITIOn/EXPRESSION
+      else {
+         System.out.println("Get back in your crib");
       }
    }
 }
